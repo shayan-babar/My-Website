@@ -1,0 +1,210 @@
+* {
+    font-family: "Exo 2";
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #292929
+}
+
+.left {
+    color: #292929;
+}
+
+.nav-bar {
+    background-color: #f3971b;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-weight: 650;
+    color: #292929;
+    transition: 400ms;
+}
+
+.nav-bar a:hover {
+    font-size: larger;
+    color: wheat;
+}
+
+.nav-bar li {
+    list-style: none;
+    margin: 20px;
+
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.main-heading {
+    text-decoration: underline #292929;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 40px;
+    margin-top: 120px;
+    color: white;
+    text-align: center;
+}
+
+.heading-two {
+    margin: 40px;
+    margin-top: 120px;
+    font-size: 3rem;
+    color: #f3971b;
+    text-align: center;
+}
+
+.heading-three {
+    text-align: center;
+    color: #f3971b;
+    font-size: xx-large;
+    margin: 65px;
+    text-decoration: underline;
+}
+
+.second-section {
+    height: 600px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left h1 {
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-second img {
+    height: 450px;
+    margin: 20px;
+
+}
+
+.sec-parah {
+    font-size: 23px;
+}
+
+.right-second {
+    color: white;
+}
+
+.third-section {
+    background-color: #c2c0c3;
+    overflow: hidden;
+    height: 850px
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    width: 300px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgb(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-button {
+    display: inline-block;
+    background-color: rgb(4, 177, 251);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+.card-button:hover {
+    background-color: rgb(4, 188, 290);
+    color: black;
+}
+
+.heading-four {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+
+.main-head {
+    font-size: 2rem;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    margin: 40px;
+}
+
+.left-third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-third li {
+    list-style: none;
+}
+
+.service-heading {
+    padding: 50px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.fourth-section {
+    background-color: #292929;
+    height: 550px;
+    color: white;
+}
+
+.heading-4 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 50px;
+
+}
+
+.subfooter {
+    height: 60px;
+    gap: 7px;
+    background-color: #c2c0c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-line {
+    margin-top: 17px;
+}

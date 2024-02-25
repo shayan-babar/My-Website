@@ -1,0 +1,284 @@
+@media(max-width:600px) {
+    .nav-bar {
+        background-color: #f3971b;
+        height: 90px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .left h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .main-heading {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+}
+
+@media(max-width:600px) {
+    .first-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-heading {
+        margin-top: 90px;
+    }
+
+    .heading-two {
+        margin-top: 100px;
+    }
+
+    .heading-three {
+        margin-top: 130px;
+    }
+
+    .second-section {
+        height: 1000px;
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .sec-parah {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 21px;
+    }
+
+    .left-second img {
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:600px) {
+    .third-section {
+        height: 107rem;
+
+    }
+
+    .card-container {
+        display: inline-block;
+        justify-content: center;
+
+    }
+
+}
+
+.fourth-section {
+    height: 777px;
+}
+
+.sub-footer {
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 600px responsive! */
+
+@media(max-width:760px) {
+    .nav-bar {
+        background-color: #f3971b;
+        height: 90px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .left h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    .right {
+        display: none;
+    }
+
+}
+
+@media(max-width:760px) {
+    .first-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-heading {
+        margin-top: 90px;
+    }
+
+    .heading-two {
+        margin-top: 100px;
+    }
+
+    .heading-three {
+        margin-top: 130px;
+    }
+
+    .main-head {
+        margin-top: 80px;
+        font-size: 35px;
+    }
+
+    .second-section {
+        height: 1100px;
+        overflow: hidden;
+        width: fit-content;
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .sec-parah {
+        text-align: center;
+        overflow: hidden;
+        font-size: 20px;
+    }
+
+    .left-second img {
+        height: auto;
+        width: 100%;
+        margin-top: 50px;
+        padding-right: 30px;
+
+
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
+@media(max-width:760px) {
+    .third-section {
+        height: 120rem;
+        overflow: hidden;
+
+    }
+
+    .card-container {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .service-heading {
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+}
+
+
+.sub-footer {
+    height: 60px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-right: 50px;
+}
+
+/* responsive-760px */
+
+@media(max-width:320px) {
+    .nav-bar {
+        background-color: #f3971b;
+        height: 90px;
+    }
+
+    .left h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+        font-size: 50px;
+        font-weight: 900;
+    }
+
+    .right {
+        display: none;
+    }
+
+}
+
+@media(max-width:320px) {
+    .first-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .main-heading {
+        margin-top: 130px;
+        font-weight: 500;
+    }
+
+    .heading-two {
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    .second-section {
+        overflow: hidden;
+        height: 1110px;
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .left-second img {
+
+        padding-right: 34px;
+        margin-top: 40px;
+
+    }
+
+    .main-head {
+        margin-top: 60px;
+    }
+
+    .sec-parah {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:320px) {
+    .third-section {
+        overflow: hidden;
+        height: 120rem;
+
+    }
+
+    .service-heading {
+        font-size: 40px;
+    }
+
+    .card-container {
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .card {
+        width: 250px;
+    }
+
+    .card-content h1 {
+        font-size: 25px;
+    }
+
+}
